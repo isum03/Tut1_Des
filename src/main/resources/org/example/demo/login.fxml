@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
@@ -16,7 +17,7 @@
       <Text layoutX="34.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name" />
       <Text layoutX="39.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
       <TextField layoutX="105.0" layoutY="130.0" />
-      <TextField layoutX="105.0" layoutY="168.0" />
       <Button layoutX="203.0" layoutY="209.0" mnemonicParsing="false" text="Sign in" />
+      <PasswordField layoutX="106.0" layoutY="168.0" />
    </children>
 </AnchorPane>
